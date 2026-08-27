@@ -1,19 +1,19 @@
 # GPT-2 Fine-Tuning — Rakitra
 
-Fine-tuning du modèle **GPT-2** (Hugging Face `transformers`) sur un corpus de texte personnalisé (`rakitra.csv`), avec prétraitement, entraînement, et génération de texte.
+Fine-tuning the **GPT-2** model (Hugging Face `transformers`) on a custom text corpus (`rakitra.csv`), including preprocessing, training, and text generation.
 
-## Structure du projet
+## Project Structure
 
-```
+```text
 .
 ├── README.md
 ├── requirements.txt
-├── .gitignore                             
+├── .gitignore
 └── src/
-    ├── preprocess.py       
-    ├── train.py             
-    └── inference.py        
-```
+    ├── preprocess.py
+    ├── train.py
+    └── inference.py
+````
 
 ## Installation
 
@@ -21,16 +21,17 @@ Fine-tuning du modèle **GPT-2** (Hugging Face `transformers`) sur un corpus de 
 pip install -r requirements.txt
 ```
 
-
-### 3. Génération de texte
+### 3. Text Generation
 
 ```bash
 python src/inference.py
 ```
-Le script demande un prompt et une longueur maximale, puis génère du texte avec le modèle fine-tuné.
+
+The script prompts the user for an input prompt and a maximum length, then generates text using the fine-tuned model.
 
 ## Notes
 
-- Le modèle entraîné (`models/`) n'est pas inclus dans le repo (trop lourd pour GitHub). 
+* The trained model (`models/`) is not included in the repository because it is too large for GitHub.
 
+```
 
