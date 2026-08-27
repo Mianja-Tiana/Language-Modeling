@@ -8,8 +8,7 @@ Fine-tuning du modèle **GPT-2** (Hugging Face `transformers`) sur un corpus de 
 .
 ├── README.md
 ├── requirements.txt
-├── .gitignore               
-├── models/                
+├── .gitignore                             
 └── src/
     ├── preprocess.py       
     ├── train.py             
